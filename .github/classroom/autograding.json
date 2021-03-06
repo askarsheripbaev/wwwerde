@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "cmake-test",
+      "setup": "cmake -Bbuild && cmake --build build",
+      "run": "build/words/words_test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
